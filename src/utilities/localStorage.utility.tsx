@@ -32,8 +32,11 @@ export const getTheme = (): string => {
 }
  
 export const getIpServer = (): string => {
-    const ip = "localhost";
-    return 'http://'+ ip +':8090';
+    //const ip = "localhost";
+    //return 'http://'+ ip +':8080';
+
+    const ip = "compucad-85340514893.northamerica-south1.run.app";
+    return 'https://'+ ip ;
 
 }
 
